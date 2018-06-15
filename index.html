@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Tunnel Rush</title>
+		<link rel="stylesheet" href="../webgl.css" type="text/css">
+		<style> 
+			#overlay {
+			    position: absolute;
+			    left: 20px;
+			    top: 20px;
+			    background-color: rgba(16, 29, 206, 0.7);
+			    color: white;
+				font-size: x-large;	
+			    font-family: monospace;
+			    padding: 1em;
+			}
+		</style>
+	</head>
+
+	<body id="load">
+		<div id="bod" class="container">
+			<canvas id="glcanvas" width="1280" height="650"></canvas>
+			<div id="overlay">
+				<div>Score:
+					<span id="score"></span>
+				</div>
+				<div>Level:
+					<span id="level"></span>
+				</div>
+				<div>Lives:
+					<span id="lives"></span>
+				</div>	
+			</div>
+		</div>
+	</body>
+
+	<script src="mousetrap/mousetrap.min.js"></script>
+	<script src="./gl-matrix.js"></script>
+	<script src="sound.js"></script>
+	<script src="blocks1.js"></script>	
+	<script src="blocks2.js"></script>	
+	<script src="webgl-demo.js"></script>
+ 
+</html>
