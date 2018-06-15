@@ -3,9 +3,6 @@ Graphics Assignment 3
 
 Tunnel hit like game made in webGL. More details in the statement [PDF](./assign3.pdf).
 
-Utkarsh - 20161073
-=======================
-
 ## 1. How to run the game
 
 ### First compile:
